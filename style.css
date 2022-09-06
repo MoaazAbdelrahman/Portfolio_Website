@@ -1,0 +1,123 @@
+:root {
+    --mainColor: #29d878;
+    --secondaryColor: #05386b;
+    --thirdcolor: #379683;
+    --barcolor: #EDF5E1;
+    } 
+
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    background-color: var(--barcolor);
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: var(--secondaryColor);
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: var(--secondaryColor);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+nav a:hover{
+    color: var(--thirdcolor);
+}
+
+section{
+    padding: 100px 200px;
+    
+}
+
+.main{
+    padding-top: 200px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/pexels-johannes-plenio-1103970.jpg);
+    background-size: cover;
+
+}
+
+.main h2{
+    font-size: 1.4em;
+    color: var(--barcolor);
+    font-weight: 500;   
+}
+
+.main h2 span{
+    display: inline-block;
+    color: var(--secondaryColor);
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+.main h3{
+    color: var(--barcolor);
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainbutton{
+    color: var(--barcolor);
+    background-color: var(--secondaryColor);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    max-width: fit-content;
+    transition: 0.7s ease;
+}
+
+.mainbutton:hover{
+    background-color: #05407a;
+    transform: scale(1.1);
+}
+
+.social-media a{
+    color: var(--barcolor);
+    font-size: 1.4em;
+    padding-right: 30px;
+}
+
+ 
+
+
+
+
+
+
+
+
