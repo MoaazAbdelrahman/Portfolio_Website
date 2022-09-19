@@ -3,19 +3,19 @@
     --secondaryColor: #05386b;
     --thirdcolor: #379683;
     --barcolor: #EDF5E1;
-    } 
+}
 
 
-*{
+* {
     font-family: 'poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
+
 }
 
-header{
+header {
     background-color: var(--barcolor);
     width: 100%;
     position: fixed;
@@ -27,7 +27,7 @@ header{
 
 }
 
-.logo{
+.logo {
     text-decoration: none;
     color: var(--secondaryColor);
     font-weight: 700;
@@ -35,7 +35,7 @@ header{
     text-transform: uppercase;
 }
 
-nav a{
+nav a {
     color: var(--secondaryColor);
     text-decoration: none;
     font-weight: 500;
@@ -43,16 +43,16 @@ nav a{
     padding-left: 30px;
 }
 
-nav a:hover{
+nav a:hover {
     color: var(--thirdcolor);
 }
 
-section{
+section {
     padding: 100px 200px;
-    
+
 }
 
-.main{
+.main {
     padding-top: 200px;
     width: 100%;
     min-height: 100vh;
@@ -63,13 +63,13 @@ section{
 
 }
 
-.main h2{
+.main h2 {
     font-size: 1.4em;
     color: var(--barcolor);
-    font-weight: 500;   
+    font-weight: 500;
 }
 
-.main h2 span{
+.main h2 span {
     display: inline-block;
     color: var(--secondaryColor);
     font-size: 3em;
@@ -78,7 +78,7 @@ section{
 
 }
 
-.main h3{
+.main h3 {
     color: var(--barcolor);
     font-size: 2em;
     letter-spacing: 1px;
@@ -86,7 +86,7 @@ section{
     margin-bottom: 10px;
 }
 
-.mainbutton{
+.mainbutton {
     color: var(--barcolor);
     background-color: var(--secondaryColor);
     text-decoration: none;
@@ -101,23 +101,143 @@ section{
     transition: 0.7s ease;
 }
 
-.mainbutton:hover{
+.mainbutton:hover {
     background-color: #05407a;
     transform: scale(1.1);
 }
 
-.social-media a{
+.social-media a {
     color: var(--barcolor);
     font-size: 1.4em;
     padding-right: 30px;
 }
 
- 
 
+.title {
+    display: flex;
+    justify-content: center;
+    color: var(--secondaryColor);
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
 
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition-duration: 0.7s ease;
+}
 
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--barcolor);
+    width: 25.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
 
+}
 
+.card :hover {
+    transform: scale(1.1);
+}
 
+.card i {
+    color: var(--secondaryColor);
+    font-size: 8em;
+}
 
+.card div {
+    text-align: center;
+}
+
+div h3 {
+    color: var(--secondaryColor);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;    
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.more-det {
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+.more-det:hover{
+    color: var(--thirdcolor);
+    
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info h3{
+    color : #000
+}
+
+.contact .info p{
+    font-size: 1.5em;
+}
+
+.footer{
+    background-color: var(--secondaryColor);
+    color: var(--barcolor);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.footer .social-media a{
+    font-size: 1.3em;
+}
 
